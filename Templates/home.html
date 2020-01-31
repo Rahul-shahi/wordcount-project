@@ -1,0 +1,19 @@
+<h1>Tauba yeh saadgi chehre pe taazgi</h1>
+{{hithere}}
+
+<form action="{% url 'count' %}">
+   <textarea cols="40" rows="10" name="fulltext"></textarea>
+   <br/> <!--means new line-->
+   <input type="Submit" value="Count!"/>
+
+
+
+   
+</form>
+<br/>
+
+<form action="{% url 'about'%}">
+<input type= "Submit" value="About"/>
+</form>
+
+<a href="{% url 'about' %}">About</a>
